@@ -1,7 +1,10 @@
 import React from 'react';
+
+import './Main.css';
 import './global.css';
 import './App.css';
 import './Sidebar.css';
+
 function App() {
   return (
    <div id="app">
@@ -30,7 +33,65 @@ function App() {
                 <button type="submit">Salvar</button>
               </form>
         </aside>
-        <main></main>
+        <main>
+              <ul>
+                  <li className="dev-item">
+                        <header>
+                              <img src="https://avatars1.githubusercontent.com/u/46430156?s=460&v=4" alt="Paulo"/>
+                              <div className ="user-info">                                    
+                                    <strong> Paulo Barcelos</strong>
+                                    <span> ReactJs, React</span>
+                              </div>  
+                        </header>
+                        <p> teste para estilização da aplicação que esta sendo desenvolvida junto com a rocket seat</p>
+                        <a href="https://github.com/PauloBarcelosDev">Acessar perfil no Github</a>
+                  </li>
+                  <li className="dev-item">
+                        <header>
+                              <img src="https://avatars1.githubusercontent.com/u/46430156?s=460&v=4" alt="Paulo"/>
+                              <div className ="user-info">                                    
+                                    <strong> Paulo Barcelos</strong>
+                                    <span> ReactJs, React</span>
+                              </div>  
+                        </header>
+                        <p> teste para estilização</p>
+                        <a href="https://github.com/PauloBarcelosDev">Acessar perfil no Github</a>
+                  </li>
+                  <li className="dev-item">
+                        <header>
+                              <img src="https://avatars1.githubusercontent.com/u/46430156?s=460&v=4" alt="Paulo"/>
+                              <div className ="user-info">                                    
+                                    <strong> Paulo Barcelos</strong>
+                                    <span> ReactJs, React</span>
+                              </div>  
+                        </header>
+                        <p> teste para estilização</p>
+                        <a href="https://github.com/PauloBarcelosDev">Acessar perfil no Github</a>
+                  </li>
+                  <li className="dev-item">
+                        <header>
+                              <img src="https://avatars1.githubusercontent.com/u/46430156?s=460&v=4" alt="Paulo"/>
+                              <div className ="user-info">                                    
+                                    <strong> Paulo Barcelos</strong>
+                                    <span> ReactJs, React</span>
+                              </div>  
+                        </header>
+                        <p> teste para estilização</p>
+                        <a href="https://github.com/PauloBarcelosDev">Acessar perfil no Github</a>
+                  </li>
+                  <li className="dev-item">
+                        <header>
+                              <img src="https://avatars1.githubusercontent.com/u/46430156?s=460&v=4" alt="Paulo"/>
+                              <div className ="user-info">                                    
+                                    <strong> Paulo Barcelos</strong>
+                                    <span> ReactJs, React</span>
+                              </div>  
+                        </header>
+                        <p> teste para estilização</p>
+                        <a href="https://github.com/PauloBarcelosDev">Acessar perfil no Github</a>
+                  </li>
+            </ul>
+        </main>
    </div>
   );
 }
